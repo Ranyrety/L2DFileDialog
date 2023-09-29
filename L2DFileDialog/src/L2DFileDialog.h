@@ -318,7 +318,7 @@ namespace FileDialog {
 				file_dialog_current_file = "";
 				strcpy_s(file_dialog_error, "");
 				initial_path_set = false;
-				file_dialog_open = false;
+				*open = false;
 			};
 
 			if (ImGui::Button("Cancel")) {
